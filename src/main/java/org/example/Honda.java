@@ -6,5 +6,7 @@ public class Honda {
         System.out.println( "Hello Honda!" );
         System.out.println( "Honda go to commit B" );
         System.out.println( "Honda run to commit B" );
+        System.out.println( "Honda run to commit D" );
+        System.out.println( "Honda run to commit E" );
     }
 }
