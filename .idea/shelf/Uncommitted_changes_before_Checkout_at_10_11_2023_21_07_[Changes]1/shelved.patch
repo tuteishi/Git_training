@@ -1,0 +1,17 @@
+Index: src/main/java/org/example/Honda.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Honda {\r\n    public static void main( String[] args )\r\n    {\r\n        System.out.println( \"Hello Honda!\" );\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Honda.java b/src/main/java/org/example/Honda.java
+--- a/src/main/java/org/example/Honda.java	
++++ b/src/main/java/org/example/Honda.java	
+@@ -4,5 +4,6 @@
+     public static void main( String[] args )
+     {
+         System.out.println( "Hello Honda!" );
++        System.out.println( "Honda run to commit B" );
+     }
+ }
